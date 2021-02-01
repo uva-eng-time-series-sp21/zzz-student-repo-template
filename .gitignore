@@ -1,3 +1,15 @@
+# The .gitignore file instructs git not to commit certain local files to your repo.
+# You generally don't want your repo to include large data files, or local operating system files, for example.
+# This is a basic .gitignore file for programming in R.
+# To learn more about what .gitignore files are for and which one is right for you, see these resources:
+#    https://docs.github.com/en/github/using-git/ignoring-files
+#    https://git-scm.com/docs/gitignore
+#    https://www.toptal.com/developers/gitignore
+#    https://tekin.co.uk/2020/03/maintain-a-global-git-ignore-file
+#    https://github.com/github/gitignore
+#    https://docs.ropensci.org/gitignore/
+
+
 # History files
 .Rhistory
 .Rapp.history
