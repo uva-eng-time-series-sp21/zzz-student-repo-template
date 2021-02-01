@@ -1,2 +1,2 @@
-# zzz-student-repo-template
-Empty template for a repository for a student project
+# Lastname Firstname
+Edit this file to provide a brief description of your project.
