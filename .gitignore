@@ -1,7 +1,7 @@
 # The .gitignore file instructs git not to commit certain local files to your repo.
 # You generally don't want your repo to include large data files, or local operating system files, for example.
 # This is a basic .gitignore file for programming in R.
-# To learn more about what .gitignore files are for and which one is right for you, see these resources:
+# To learn more about what .gitignore files are for and which one is right for your project, see these resources:
 #    https://docs.github.com/en/github/using-git/ignoring-files
 #    https://git-scm.com/docs/gitignore
 #    https://www.toptal.com/developers/gitignore
@@ -16,6 +16,10 @@
 
 # Session Data files
 .RData
+
+# Large data files
+/data_raw/large-files-no-synch/*.*
+/data_prepared/large-files-no-synch/*.*
 
 # User-specific files
 .Ruserdata
@@ -50,3 +54,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Operating system files
+.DS_Store
